@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>RATHOD NENCY DILIPBHAI | Portfolio</title>
+<style>
+  :root { --navy:#1f3a5f; --blue:#2e86de; --bg:#f4f7fb; --text:#222; --card:#fff; }
+  * { box-sizing:border-box; margin:0; padding:0; }
+  html { scroll-behavior:smooth; }
+  body { font-family:Georgia, "Times New Roman", serif; background:var(--bg); color:var(--text); line-height:1.65; }
+  nav { position:sticky; top:0; background:var(--navy); padding:14px 24px; display:flex; gap:22px; flex-wrap:wrap; justify-content:flex-end; }
+  nav a { color:#fff; text-decoration:none; font-family:Arial, sans-serif; font-size:15px; }
+  nav a:hover, nav a:focus-visible { color:#9cc9f5; outline:none; text-decoration:underline; }
+  header { background:var(--navy); color:#fff; padding:80px 24px 90px; text-align:center; }
+  header h1 { font-size:clamp(2rem, 6vw, 3.4rem); margin-bottom:8px; }
+  header p { font-family:Arial, sans-serif; font-size:1.1rem; color:#bfd7f2; }
+  .btn { display:inline-block; margin-top:24px; padding:12px 26px; background:var(--blue); color:#fff; text-decoration:none; border-radius:6px; font-family:Arial, sans-serif; }
+  .btn:hover { background:#1b6fc0; }
+  section { max-width:960px; margin:0 auto; padding:56px 24px; }
+  h2 { color:var(--navy); font-size:1.8rem; margin-bottom:18px; border-bottom:3px solid var(--blue); display:inline-block; padding-bottom:4px; }
+  .skills { display:flex; flex-wrap:wrap; gap:10px; }
+  .skills span { background:var(--navy); color:#fff; padding:6px 16px; border-radius:20px; font-family:Arial, sans-serif; font-size:14px; }
+  .card { background:var(--card); border-left:5px solid var(--blue); padding:20px; border-radius:6px; box-shadow:0 1px 4px rgba(0,0,0,.12); max-width:520px; }
+  .card h3 { color:var(--navy); margin-bottom:6px; }
+  .card p { font-size:.95rem; }
+  .card a { color:var(--blue); font-family:Arial, sans-serif; font-size:14px; }
+  ul.edu { list-style:none; }
+  ul.edu li { background:var(--card); padding:14px 18px; margin-bottom:12px; border-radius:6px; box-shadow:0 1px 4px rgba(0,0,0,.12); }
+  ul.edu b { color:var(--navy); }
+  .contact p { margin-bottom:6px; }
+  .contact a { color:var(--blue); }
+  footer { background:var(--navy); color:#bfd7f2; text-align:center; padding:18px; font-family:Arial, sans-serif; font-size:14px; }
+  @page { size:A4; margin:0; }
+  @media print {
+    * { -webkit-print-color-adjust:exact; print-color-adjust:exact; }
+    nav { display:none; }
+    header { padding:26px 24px 28px; }
+    header h1 { font-size:2.2rem; }
+    section { padding:12px 36px; }
+    h2 { margin-bottom:8px; font-size:1.4rem; }
+    ul.edu li { padding:6px 14px; margin-bottom:6px; }
+    footer { padding:10px; }
+    .btn { display:none; }
+    section, .card, ul.edu li { break-inside:avoid; }
+  }
+</style>
+</head>
+<body>
+
+<nav>
+  <a href="#about">About</a>
+  <a href="#education">Education</a>
+  <a href="#skills">Skills</a>
+  <a href="#projects">Project</a>
+  <a href="#contact">Contact</a>
+</nav>
+
+<header>
+  <h1>RATHOD NENCY DILIPBHAI</h1>
+  <p>M.Sc. IT Student | CHARUSAT University | Student ID: 26MSIT128</p>
+  <a class="btn" href="#contact">Contact me</a>
+</header>
+
+<section id="about">
+  <h2>About me</h2>
+  <p>I am an M.Sc. Information Technology student at CHARUSAT University. I completed my BCA at the same university and enjoy building applications and solving problems with code. I am looking for an internship or entry-level role where I can apply my skills in Python, Java, databases and web development, and keep learning from experienced teams.</p>
+</section>
+
+<section id="education">
+  <h2>Education</h2>
+  <ul class="edu">
+    <li><b>M.Sc. (Information Technology)</b><br>CHARUSAT University, 2026 - Present</li>
+    <li><b>BCA (Bachelor of Computer Applications)</b><br>CHARUSAT University, 2023 - 2026</li>
+    <li><b>HSC (12th)</b><br>Knowledge High School, 2023</li>
+  </ul>
+</section>
+
+<section id="skills">
+  <h2>Skills</h2>
+  <div class="skills">
+    <span>Python</span><span>Java</span><span>C</span><span>SQL</span>
+    <span>HTML5</span><span>CSS3</span><span>JavaScript</span><span>PHP</span>
+    <span>MySQL</span>
+  </div>
+</section>
+
+<section id="projects">
+  <h2>Project</h2>
+  <div class="card">
+    <h3>Student Management System</h3>
+    <p>Python and MySQL app to manage student records, marks and attendance, with search and reports.</p>
+  </div>
+</section>
+
+<section id="contact" class="contact">
+  <h2>Contact</h2>
+  <p>Email: <a href="mailto:rathodnency2006@gmail.com">rathodnency2006@gmail.com</a></p>
+  <p>GitHub: <a href="https://github.com/nency2010">github.com/nency2010</a></p>
+</section>
+
+<footer>&copy; 2026 RATHOD NENCY DILIPBHAI | 26MSIT128</footer>
+
+</body>
+</html>
